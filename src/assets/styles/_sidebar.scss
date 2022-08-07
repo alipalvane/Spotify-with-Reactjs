@@ -1,0 +1,28 @@
+aside {
+  height: 100%;
+  padding: 1rem;
+  width: 70%;
+  .sidebar-logo {
+    padding-right: 10px;
+  }
+  nav {
+    ul {
+        .active{
+          span{
+            color:#00da5a;
+          }
+            
+        }
+      li {
+        margin: 1rem 0;
+        span {
+          padding-left: 0.5rem;
+          color: #fff;
+          &:hover {
+            color: #00da5a;
+          }
+        }
+      }
+    }
+  }
+}

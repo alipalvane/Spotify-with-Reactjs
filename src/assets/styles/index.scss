@@ -1,0 +1,68 @@
+@import "header";
+@import "sidebar";
+@import "main";
+@import "~bootstrap/scss/bootstrap";
+aside{
+  background: #222326;
+}
+main{
+  height: 60vh;
+}
+h1,h2 {
+  font-family: "Open Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+h2{
+    font-size: 22px;
+}
+h3 {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+p {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+blockquote {
+  font-family: "Open Sans";
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+pre {
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714px;
+}
+body {
+  color: #fff;
+  background-color: #0C120C;
+}
+a{
+  transition: all 0.4s ease-in;
+  cursor: pointer;
+}
+a:hover{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
